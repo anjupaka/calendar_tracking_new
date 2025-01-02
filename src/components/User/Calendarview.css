@@ -1,0 +1,228 @@
+﻿/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Calendar Interface */
+.calendar-interface {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Enable horizontal scroll if necessary */
+}
+
+/* Header Styling */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* FullCalendar Styling */
+.fc {
+    flex-grow: 1;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Allow horizontal scrolling for month view */
+    white-space: nowrap;
+}
+
+/* Day Grid Styling */
+.fc-daygrid-day {
+    min-height: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+/* Reduce grid size to fit Saturday */
+.fc-daygrid {
+    grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+}
+
+/* Current Day Highlight */
+.fc-day-today {
+    background-color: #ffffd9 !important; /* Light Blue */
+    border: none; /* Remove borders if unnecessary */
+    color: #000; /* Black text color */
+}
+
+
+/* Event Styling */
+.fc-event {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    max-height: 2.5em; /* Prevent text overflow */
+}
+
+    /* Color Coding for Events */
+    .fc-event.overdue {
+        background-color: #ff9e91;
+        color: black;
+    }
+
+    .fc-event.due-today {
+        background-color: #ffdf00;
+        color: black;
+    }
+
+    .fc-event.future {
+        background-color: #99edc3;
+        color: black;
+    }
+
+
+/* Horizontal Scrolling */
+.fc-daygrid {
+    overflow-x: auto;
+    width: 100%;
+}
+
+/* Adjust Saturday Visibility */
+.fc-scrollgrid-sync-inner {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+
+/* Week and Day View Adjustments */
+.fc-timegrid {
+    overflow-x: auto; /* Enable horizontal scroll for week/day view */
+}
+
+.fc-timegrid-slot {
+    height: 50px; /* Adjust height for better spacing */
+    padding: 5px; /* Add padding for clarity */
+    border: 1px solid #ddd; /* Add borders for better visual separation */
+}
+
+/* Time Label Adjustments */
+.fc-timegrid-axis {
+    background-color: #f0f0f0;
+    color: #333;
+    height: 100px; /* Adjust height for better spacing */
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #ddd;
+}
+
+/* Week and Day View Events */
+.fc-timegrid-event {
+    margin: 2px 0;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #ccc; /* Add border to distinguish events */
+    /*background-color: #4caf50; /* Default event background */
+    white-space: normal; /* Allow text wrapping */
+    overflow: auto;
+    word-wrap: break-word; /* Prevent content overflow */
+    max-height: 100%; /* Ensure visibility of content */
+}
+
+
+/* Highlight Current Time in Week/Day View */
+.fc-timegrid-now-indicator-line {
+    background-color: #007BFF;
+    height: 2px;
+}
+
+.fc-timegrid-now-indicator-arrow {
+    border-top: 4px solid #007BFF;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+    /* Form Styling */
+    .modal-content form label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        text-align: left;
+    }
+
+    .modal-content form input,
+    .modal-content form select,
+    .modal-content form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    /* Buttons */
+    .modal-content form button {
+        background: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 5px;
+        transition: background-color 0.2s;
+    }
+
+        .modal-content form button:hover {
+            background: #0056b3;
+        }
+
+        .modal-content form button.cancel {
+            background: #f44336;
+        }
+
+            .modal-content form button.cancel:hover {
+                background: #d32f2f;
+            }
