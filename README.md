@@ -19,6 +19,7 @@ A feature-rich calendar application built with React, Vite, and Material-UI, des
 ## Application Home page.
   ![image](https://github.com/user-attachments/assets/8efa2cc4-6484-4191-acaf-2d20483894a3)
 ## Admin Dashboard.
+   This modules allows admin to perform "Company managment" and "Communication methods" data.
   - **Company Management**
   ![image](https://github.com/user-attachments/assets/94226eeb-9293-425a-8bf7-008bf3f48573)
   - **Communication Methods**
