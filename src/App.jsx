@@ -19,6 +19,7 @@ import CommunicationFrequency from "./components/Reporting/CommunicationFrequenc
 import EngagementEffectiveness from "./components/Reporting/EngagementEffectiveness.jsx";
 import OverdueTrends from "./components/Reporting/OverdueTrends.jsx";
 import RealTimeActivityLog from "./components/Reporting/RealTimeActivityLog.jsx";
+/*changes in the .jsx extns*/
 
 
 
