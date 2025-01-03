@@ -6,9 +6,6 @@ A feature-rich calendar application built with React, Vite, and Material-UI, des
 - **Reporting Dashboard**: Analyze communication trends, overdue tasks, and engagement effectiveness.
 - **Real-Time Updates**: Logs and tracks real-time activities.
 - **Responsive Design**: Fully responsive for desktop and mobile users.
-![image](https://github.com/user-attachments/assets/0f8aae8a-d3ce-4951-a49b-013533b15401)
-
-
 ## Tech Stack
 - **Frontend**: React, Material-UI
 - **Routing**: React Router DOM
@@ -24,3 +21,8 @@ A feature-rich calendar application built with React, Vite, and Material-UI, des
    -->npm run dev
    -->npm run build
    -->npm run preview
+
+##Folder structure
+![image](https://github.com/user-attachments/assets/4b03cd6b-7134-4369-855f-3b13a1d4608b)
+
+
