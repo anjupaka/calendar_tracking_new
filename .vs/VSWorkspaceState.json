@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\src",
     "\\src\\assets",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\components\\Reporting"
   ],
-  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": true
 }

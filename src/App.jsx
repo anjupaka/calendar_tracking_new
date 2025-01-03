@@ -10,15 +10,15 @@ import {
     Box,
 } from "@mui/material";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
-import CommunicationMethods from "./components/Admin/CommunicationMethods";
-import CompanyForm from "./components/Admin/CompanyForm";
-import Dashboard from "./components/User/Dashboard";
-import Calendarview from "./components/User/Calendarview";
-import Notifications from "./components/User/Notifications";
-import CommunicationFrequency from "./components/Reporting/CommunicationFrequency";
-import EngagementEffectiveness from "./components/Reporting/EngagementEffectiveness";
-import OverdueTrends from "./components/Reporting/OverdueTrends";
-import RealTimeActivityLog from "./components/Reporting/RealTimeActivityLog";
+import CommunicationMethods from "./components/Admin/Communicationmethods.jsx";
+import CompanyForm from "./components/Admin/CompanyForm.jsx";
+import Dashboard from "./components/User/Dashboard.jsx";
+import Calendarview from "./components/User/Calendarview.jsx";
+import Notifications from "./components/User/Notifications.jsx";
+import CommunicationFrequency from "./components/Reporting/CommunicationFrequency.jsx";
+import EngagementEffectiveness from "./components/Reporting/EngagementEffectiveness.jsx";
+import OverdueTrends from "./components/Reporting/OverdueTrends.jsx";
+import RealTimeActivityLog from "./components/Reporting/RealTimeActivityLog.jsx";
 
 
 

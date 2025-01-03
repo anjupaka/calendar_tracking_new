@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "C:\\Users\\anjub\\OneDrive\\Documents\\ReactProjects\\calendar_tracking_new\\calendar_tracking_new\\vite.config.js",
-              "RelativeDocumentMoniker": "vite.config.js",
-              "ToolTip": "C:\\Users\\anjub\\OneDrive\\Documents\\ReactProjects\\calendar_tracking_new\\calendar_tracking_new\\vite.config.js",
-              "RelativeToolTip": "vite.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-02T15:02:05.216Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,9 +28,22 @@
               "RelativeDocumentMoniker": "package.json",
               "ToolTip": "C:\\Users\\anjub\\OneDrive\\Documents\\ReactProjects\\calendar_tracking_new\\calendar_tracking_new\\package.json",
               "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-02T14:51:58.681Z",
+              "WhenOpened": "2025-01-03T06:19:24.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\anjub\\OneDrive\\Documents\\ReactProjects\\calendar_tracking_new\\calendar_tracking_new\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "C:\\Users\\anjub\\OneDrive\\Documents\\ReactProjects\\calendar_tracking_new\\calendar_tracking_new\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-03T06:19:23.307Z",
               "EditorCaption": ""
             }
           ]
