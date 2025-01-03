@@ -16,6 +16,33 @@ A feature-rich calendar application built with React, Vite, and Material-UI, des
   ## Folder structure
   ![image](https://github.com/user-attachments/assets/1623414e-9f5e-492f-98a7-4d2cac414830)
 
+  ## Application Home page.
+  ![image](https://github.com/user-attachments/assets/8efa2cc4-6484-4191-acaf-2d20483894a3)
+  ## Admin Dashboard.
+  - **Company Management**
+  ![image](https://github.com/user-attachments/assets/94226eeb-9293-425a-8bf7-008bf3f48573)
+  -- **Communication Methods**
+  ![image](https://github.com/user-attachments/assets/8df8db85-374f-46a0-87b2-81b9c3068996)
+  ## User Dashboard.
+  - **Dashboard**
+  ![image](https://github.com/user-attachments/assets/7c60e211-1a65-48cb-923c-222de7419cc3)
+   -**Dashboard Actions and features
+    1. Displays the last five communications and next scheduled communications for each company.
+    2. We have a hover feature to display notes for each communication and Button to Disable or enable color coding higlights.
+    3. This Dashboard is interlinked with Calendar view for single point of truth. Clicking on "Communcation performed" button navigates to calendar view for communication action.
+   - **Calendar view**
+   ![image](https://github.com/user-attachments/assets/607a2816-0b58-4778-a986-13ed126e874d)
+    1. Calendar view consists of Month view, Week view and day view.
+    2. Calendar view is used to view and manage past, current and future communications.
+    3. To create a "new communication", <u>click on the required date and a pop up will appear to create a new communication.</u>
+    4. To modify or delete the existing communication, **click on the existing communication, A popup will appear to edit existing communication.**
+    5. Notes will appear when we hover on the existing communications in the calendar view.
+   - 
+
+    
+    
+ 
+
 
 
 
