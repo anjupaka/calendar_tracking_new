@@ -30,7 +30,7 @@ const App = () => {
     const [isReportingSubmenuOpen, setIsReportingSubmenuOpen] = useState(false);
 
     return (
-        <Router basename="/CalendarApplication_ENTNT/">
+        <Router>
             <div className="app-container">
                 {/* Sidebar */}
                 <Drawer

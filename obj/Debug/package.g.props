@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageJsonHomepage Condition="$(PackageJsonHomepage) == ''">https://anjupaka/github.io/CalendarApplication_ENTNT</PackageJsonHomepage>
     <PackageJsonName Condition="$(PackageJsonName) == ''">calendar_tracking_new</PackageJsonName>
-    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">false</PackageJsonPrivate>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
     <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
     <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
     <PackageJsonScriptsPredeploy Condition="$(PackageJsonScriptsPredeploy) == ''">npm run build</PackageJsonScriptsPredeploy>
