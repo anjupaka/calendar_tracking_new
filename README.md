@@ -27,17 +27,17 @@ A feature-rich calendar application built with React, Vite, and Material-UI, des
   - **Dashboard**
   ![image](https://github.com/user-attachments/assets/7c60e211-1a65-48cb-923c-222de7419cc3)
    - **Dashboard Actions and features**
-    1. Displays the last five communications and next scheduled communications for each company.
-    2. We have a hover feature to display notes for each communication and Button to Disable or enable color coding higlights.
-    3. This Dashboard is interlinked with Calendar view for single point of truth. Clicking on "Communcation performed" button navigates to calendar view for communication action.
+  1. Displays the last five communications and next scheduled communications for each company.
+  2. We have a hover feature to display notes for each communication and Button to Disable or enable color coding higlights.
+  3. This Dashboard is interlinked with Calendar view for single point of truth. Clicking on "Communcation performed" button navigates to calendar view for communication action.
    
    - **Calendar view**
    ![image](https://github.com/user-attachments/assets/607a2816-0b58-4778-a986-13ed126e874d)
-    1. Calendar view consists of Month view, Week view and day view.
-    2. Calendar view is used to view and manage past, current and future communications.
-    3. To create a "new communication", **click on the required date and a pop up will appear to create a new communication.**
-    4. To modify or delete the existing communication, **click on the existing communication, A popup will appear to edit existing communication.**
-    5. Notes will appear when we hover on the existing communications in the calendar view.
+  1. Calendar view consists of Month view, Week view and day view.
+  2. Calendar view is used to view and manage past, current and future communications.
+  3. To create a "new communication", **click on the required date and a pop up will appear to create a new communication.**
+  4. To modify or delete the existing communication, **click on the existing communication, A popup will appear to edit existing communication.**
+  5. Notes will appear when we hover on the existing communications in the calendar view.
 
    - **Notifications**
   ![image](https://github.com/user-attachments/assets/6f87d55d-5743-4bb2-b133-214aec6cf1da)
