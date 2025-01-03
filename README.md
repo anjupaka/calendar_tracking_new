@@ -74,6 +74,27 @@ https://anjucalendarcommunicationentnt.netlify.app/
 ## Source code
 Source code uploaded to Github repository. 
 
+https://github.com/anjupaka/calendar_tracking_new.git
+
+## Installation and Setup
+**Clone the Repository**
+git clone https://github.com/anjupaka/calendar_tracking_new.git
+
+*Install Dependencies
+npm install
+
+*Run the Application
+npm run dev
+
+*Build for Production
+npm run build
+
+*Preview Production Build
+npm run preview
+
+
+
+
 
 
 
