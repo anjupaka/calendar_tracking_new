@@ -54,7 +54,7 @@ A feature-rich calendar application built with React, Vite, and Material-UI, des
   ![image](https://github.com/user-attachments/assets/5dd2411a-664a-4f97-9e0a-c418b6dc4fad)
   1. Track and display which communication methods are most effective in terms of response or follow-up actions.
   2. Include metrics like the percentage of successful responses to emails, phone calls, or LinkedIn messages.
-  3. Users can filter by company. Data can be exported to pdf.
+  3. Users can filter by company. Data can be exported to pdf
 
    - **Overdue Communication Trends**
   ![image](https://github.com/user-attachments/assets/9a28deb1-5e4f-48bc-937b-4db1738673c5)
@@ -65,6 +65,12 @@ A feature-rich calendar application built with React, Vite, and Material-UI, des
   ![image](https://github.com/user-attachments/assets/92825dad-3cb1-46ee-9b79-709629e42d9b)
   1. A live feed displaying all communication activities performed, sortable by date, user, or company.
   2. Users can filter by company, date range. Filtered data can be exported to Pdf.
+
+## Deployment
+Application is deployed on Netlify platform. Please find the below URL for the same.
+https://anjucalendarcommunicationentnt.netlify.app/
+
+
   
 
   
