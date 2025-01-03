@@ -2,13 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\dist",
+    "\\obj",
     "\\public",
-    "\\src",
     "\\src\\assets",
     "\\src\\components",
     "\\src\\components\\Admin",
     "\\src\\components\\Reporting"
   ],
-  "SelectedNode": "\\dist\\vite.svg",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": true
 }
