@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import {
     Drawer,
     List,
@@ -30,7 +30,7 @@ const App = () => {
     const [isReportingSubmenuOpen, setIsReportingSubmenuOpen] = useState(false);
 
     return (
-        <Router>
+        <Router basename="/CalendarApplication_ENTNT/">
             <div className="app-container">
                 {/* Sidebar */}
                 <Drawer

@@ -1,7 +1,7 @@
 {
     "homepage": "https://anjupaka/github.io/CalendarApplication_ENTNT",
     "name": "calendar_tracking_new",
-    "private": true,
+    "private": false,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
