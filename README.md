@@ -81,16 +81,16 @@ https://github.com/anjupaka/calendar_tracking_new.git
 git clone https://github.com/anjupaka/calendar_tracking_new.git
 
 **Install Dependencies**
-npm install
+   --->npm install
 
 **Run the Application**
-npm run dev
+  --->npm run dev
 
 **Build for Production**
-npm run build
+  --->npm run build
 
 **Preview Production Build**
-npm run preview
+  --->npm run preview
 
 
 
