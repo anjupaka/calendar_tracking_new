@@ -21,7 +21,7 @@ A feature-rich calendar application built with React, Vite, and Material-UI, des
   ## Admin Dashboard.
   - **Company Management**
   ![image](https://github.com/user-attachments/assets/94226eeb-9293-425a-8bf7-008bf3f48573)
-  -- **Communication Methods**
+  - **Communication Methods**
   ![image](https://github.com/user-attachments/assets/8df8db85-374f-46a0-87b2-81b9c3068996)
   ## User Dashboard.
   - **Dashboard**
